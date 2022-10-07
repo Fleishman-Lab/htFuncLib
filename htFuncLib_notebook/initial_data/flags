@@ -1,0 +1,26 @@
+-database /home/labs/fleishman/rosaliel/Rosetta/main/database
+-pdb_gz 
+-overwrite 
+-use_input_sc 
+-extrachi_cutoff 5
+-ignore_unrecognized_res 
+-chemical:exclude_patches LowerDNA UpperDNA Cterm_amidation SpecialRotamer VirtualBB ShoveBB VirtualDNAPhosphate VirtualNTerm CTermConnect sc_orbitals pro_hydroxylated_case1 pro_hydroxylated_case2 ser_phosphorylated thr_phosphorylated tyr_phosphorylated tyr_sulfated lys_dimethylated lys_monomethylated lys_trimethylated lys_acetylated glu_carboxylated cys_acetylated tyr_diiodinated N_acetylated C_methylamidated MethylatedProteinCterm
+-linmem_ig 10
+-ignore_zero_occupancy false
+-mute all
+-no_nstruct_label true
+-in:file:native initial_data/refined.pdb
+-extra_res_fa initial_data/LG.params
+-s initial_data/refined.pdb
+-parser:protocol initial_data/mutate.xml
+-pdb_gz 
+-parser:script_vars res_to_fix=94A,96A,121A,148A,203A,205A,222A,1X
+-parser:script_vars fix_prefix=<
+-parser:script_vars fix_TO=,fix_res
+-parser:script_vars cst_full_path=initial_data/coord.cst
+-parser:script_vars ignore_pose_profile_length_mismatch=1
+-parser:script_vars jump=0
+-parser:script_vars min_aa_probability=-2
+-parser:script_vars pssm_full_path=initial_data/pssm
+-parser:script_vars fs_thresholds=0.0,0.5,1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0,5.5,6.0
+-parser:script_vars keep_n=1
