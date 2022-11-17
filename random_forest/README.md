@@ -5,6 +5,9 @@
 
 This notebook uses the [LightGBM](https://lightgbm.readthedocs.io) package.
 
-in order to use these files, you dirst need to extract them, using
+In order to use these files, you first need to extract them, using
+```
 cat NGS_w_entire_sequence_space.tar.gz.* | tar xzvf -
 cat sequence_space_annotated.tar.gz.* | tar xzvf -
+tar xzvf *.gz
+```
