@@ -38,7 +38,6 @@ The notebook consists of the following stages:
 
 ## Required packages
 - BioPython (1.78)
-- lightgbm (3.2.1)
 - matplotlib (3.1.1)
 - numpy (1.20.2)
 - pandas (1.2.3)
