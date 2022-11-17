@@ -11,3 +11,12 @@ cat NGS_w_entire_sequence_space.tar.gz.* | tar xzvf -
 cat sequence_space_annotated.tar.gz.* | tar xzvf -
 tar xzvf *.gz
 ```
+
+These notebooks require the following packages to run:
+- lightgbm (3.2.1)
+- matplotlib (3.1.1)
+- numpy (1.20.2)
+- pandas (1.2.3)
+- seaborn (0.11.1)
+- sklearn (0.0)
+- tqdm (4.59.0)
