@@ -10,3 +10,8 @@ A pre-print of the manuscript describing this work can be found at [bioXriv](htt
 
 ## Please cite
 Weinstein, J. Y.; Aldaravi, C. M. G.; Lipsh-Sokolik, R.; Hoch, S. Y.; Liebermann, D.; Nevo, R.; Weissman, H.; Petrovich-Kopitman, E.; Margulies, D.; Ivankov, D.; McCandlish, D.; Fleishman, S. J. Designed Active-Site Library Reveals Thousands of Functional GFP Variants. bioRxiv October 11, 2022, p 2022.10.11.511732. https://doi.org/10.1101/2022.10.11.511732.
+
+
+
+[![DOI](https://zenodo.org/badge/547106556.svg)](https://zenodo.org/badge/latestdoi/547106556)
+
